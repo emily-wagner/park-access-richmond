@@ -31,8 +31,7 @@ support discussions around access to public green space.
 ## Files
 - `richmond_parks.ipynb` – analysis notebook
 - `parks_map.png` – exported map visualization
-## Outputs
-- `outputs/parks_map.png` – Map visualization of public parks in Richmond, VA
+
 
 ## Next Steps
 - Analyze park access by neighborhood
