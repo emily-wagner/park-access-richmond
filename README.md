@@ -1,30 +1,40 @@
-# Public Park Access in Richmond, Virginia
+# Richmond, VA – Public Park Access Analysis
 
-This project explores the spatial distribution of public parks in the City of
-Richmond using Python and GeoPandas.
+## Project Overview
+This project explores the spatial distribution of public parks in Richmond, Virginia.
+Using GIS and Python, I analyze park locations and visualize their geographic spread to
+support discussions around access to public green space.
 
-## Objective
-To visualize and understand how public parks are distributed across the city
-and what this may suggest about access to green space.
+## Data Source
+- City of Richmond Open Data Portal
+- Dataset: Public Parks
+- Geometry type: Polygon
 
-## Data
-- Source: City of Richmond GIS Open Data Portal
-- Format: GeoJSON
-- Data includes official park locations maintained by the city
-
-## Tools Used
+## Tools & Libraries
 - Python
 - GeoPandas
+- Pandas
 - Matplotlib
 - Jupyter Notebook
 
+## Methods
+- Loaded and inspected GIS data
+- Verified coordinate reference system (CRS)
+- Converted geometries to centroids for visualization
+- Plotted park locations using latitude and longitude
+- Exported map visualizations as PNG files
+
 ## Outputs
-- Map visualization of public parks in Richmond
+- Jupyter Notebook with full analysis
+- Static map image showing park locations across Richmond
 
-## Status
-Version 1.0 — foundational spatial visualization complete.
+## Files
+- `richmond_parks.ipynb` – analysis notebook
+- `parks_map.png` – exported map visualization
+## Outputs
+- `outputs/parks_map.png` – Map visualization of public parks in Richmond, VA
 
-## Possible Future Enhancements
-- Add city boundary context
-- Analyze park size and density
-- Explore access by neighborhood
+## Next Steps
+- Analyze park access by neighborhood
+- Incorporate population or census data
+- Measure distance to nearest park
